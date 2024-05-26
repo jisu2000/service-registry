@@ -23,7 +23,7 @@ public class ServiceRegistryApplication {
   @GetMapping("/test")
     public ResponseEntity<?> getHello() {
         Map<String, String> response = new HashMap<>();
-        response.put("Status", "Healthy v2");
+        response.put("Status", "Healthy v3");
         return new ResponseEntity<>(response,HttpStatus.OK);
     }
 
