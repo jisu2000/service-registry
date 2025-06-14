@@ -21,5 +21,6 @@ public class ServiceRegistryApplication implements ApplicationListener<WebServer
 	public void onApplicationEvent(WebServerInitializedEvent event) {
 		int port = event.getWebServer().getPort();
 		log.warn("\uD83D\uDE80 Application started on port:  {}", port);
+		log.warn("Suraj + Jisu Smart-hire the next hiring app");
 	}
 }
